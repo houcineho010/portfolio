@@ -19,11 +19,15 @@ export const metadata: Metadata = {
     template: "%s | Lahoucine",
   },
   description:
-    "Portfolio of Lahoucine, featuring practical projects in AI automation, software, web development, e-commerce, and digital marketing.",
+    "Explore Lahoucine's hands-on projects across AI automation, web development, e-commerce, and digital marketing, with clear notes on role, implementation, and available evidence.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "Lahoucine | AI, Automation, Web & Digital Systems",
     description:
-      "Practical projects across AI automation, software, web development, e-commerce, and digital marketing.",
+      "Hands-on projects across AI automation, web development, e-commerce, and digital marketing, presented with transparent project details.",
     url: "https://portfolio-delta-virid-4fch5w2jka.vercel.app",
     siteName: "Lahoucine Portfolio",
     type: "website",

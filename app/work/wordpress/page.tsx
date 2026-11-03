@@ -1,3 +1,5 @@
+import WoodMartDemoTabs from "../woodmart-demo-tabs";
+
 export default function WordPressCaseStudyPage() {
   return (
     <main className="min-h-screen bg-[#fafafa] text-[#111]">
@@ -28,6 +30,27 @@ export default function WordPressCaseStudyPage() {
             ["SEO", "Worked on search-engine optimization as part of the website setup."],
             ["Marketing integrations", "Integrated Mailchimp for email marketing and WhatsApp calls to action to make contacting the business straightforward."]
           ].map(([title, description]) => <article key={title} className="rounded-2xl border border-neutral-200 bg-white p-6 sm:p-8"><h3 className="text-xl font-semibold tracking-tight">{title}</h3><p className="mt-3 text-sm leading-6 text-neutral-500">{description}</p></article>)}</div>
+        </div>
+      </section>
+      <section className="border-t border-neutral-200">
+        <div className="mx-auto grid max-w-6xl gap-8 px-4 py-16 sm:px-6 sm:py-20 md:grid-cols-[1fr_2fr]">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-neutral-400">
+            Theme experience
+          </p>
+          <div>
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              Hands-on experience with WoodMart
+            </h2>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-neutral-500">
+              I have worked extensively with WoodMart on WordPress sites,
+              including adapting its layouts and components to project needs.
+              These examples are included to show the range of starter layouts
+              available in the theme. They are not my client work.
+            </p>
+            <div className="mt-7">
+              <WoodMartDemoTabs />
+            </div>
+          </div>
         </div>
       </section>
       <section className="border-t border-neutral-200">

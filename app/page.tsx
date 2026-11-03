@@ -7,42 +7,42 @@ const projects = [
     title: "Shorts Engine",
     type: "AI · Video · Automation",
     description:
-      "A system that analyzes long-form videos, identifies meaningful moments, and turns them into short-form content.",
+      "An AI video workflow in progress: exploring transcription, clip selection, reframing, and rendering in one pipeline.",
     href: "/work/shorts-engine",
   },
   {
     title: "WordPress Website",
     type: "WordPress · Elementor · SEO",
     description:
-      "A multilingual digital marketing website built with SEO, email marketing, and WhatsApp contact paths.",
+      "An independently built, Arabic-first WordPress site with French and English support, email marketing, and WhatsApp contact paths.",
     href: "/work/wordpress",
   },
   {
     title: "WooCommerce Store",
     type: "E-commerce · WordPress",
     description:
-      "A digital-products store with a configured automatic-delivery workflow.",
+      "A WooCommerce implementation covering digital-product listings and post-purchase delivery; the original store is offline.",
     href: "/work/woocommerce",
   },
   {
     title: "Shopify Store",
     type: "E-commerce · Shopify",
     description:
-      "A real store-building project documenting practical Shopify experience.",
+      "A Shopify fashion-store project; implementation details and original screenshots still need documentation.",
     href: "/work/shopify",
   },
   {
     title: "Marketing Systems",
     type: "Content · Marketing · Growth",
     description:
-      "A practical framework connecting content, SEO, audience research, and digital acquisition.",
+      "A process framework for content, SEO, audience research, and digital acquisition—not a campaign case study.",
     href: "/work/marketing-systems",
   },
   {
     title: "AI Automation",
     type: "AI · Workflows · Operations",
     description:
-      "Exploring useful workflows that reduce repetitive work and connect tools.",
+      "An overview of my automation principles. A concrete workflow demo would make this work easier to assess.",
     href: "/work/ai-automation",
   },
 ];
@@ -163,21 +163,20 @@ export default function Home() {
         <div className="hero-orb" aria-hidden="true" />
         <div className="relative z-10 max-w-4xl">
           <p className="eyebrow" data-reveal>
-            AI · AUTOMATION · WEB · MARKETING
+            AI AUTOMATION · E-COMMERCE · WEB DEVELOPMENT
           </p>
           <h1 className="hero-title mt-8" data-reveal>
-            I build
+            AI automation &
             <br />
-            <span className="hero-highlight">digital systems</span>
-            <br />
-            <span className="text-neutral-400">that solve problems.</span>
+            <span className="hero-highlight">e-commerce specialist.</span>
           </h1>
           <p
             className="mt-8 max-w-xl text-lg leading-8 text-neutral-500"
             data-reveal
           >
-            I combine AI, automation, software, web and marketing to turn
-            practical ideas into working systems.
+            Freelance AI and e-commerce specialist since 2019, building and
+            improving Shopify and WordPress stores, SEO, and workflow
+            automation.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-6" data-reveal>
             <a href="#work" className="button-primary">
@@ -194,7 +193,7 @@ export default function Home() {
             className="mt-14 text-xs tracking-[.16em] text-neutral-400"
             data-reveal
           >
-            BUILD V1 → COLLECT EVIDENCE → IMPROVE
+            OPEN TO AI AUTOMATION & E-COMMERCE ROLES
           </p>
         </div>
         <a href="#work" className="scroll-cue" aria-label="Scroll to projects">
@@ -215,7 +214,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-xs text-sm leading-6 text-neutral-500">
-              Software, websites, e-commerce and digital systems.
+              Shopify · WooCommerce · WordPress · AI workflows
             </p>
           </div>
 
@@ -290,9 +289,9 @@ export default function Home() {
               ))}
             </div>
           )}
-          <p className="mt-6 text-xs leading-5 text-neutral-400">
-            Case studies distinguish documented experience from results or
-            details that have not yet been verified.
+          <p className="mt-6 text-xs leading-5 text-neutral-500">
+            Project pages explain what I worked on and flag unavailable demos,
+            screenshots, or verified results.
           </p>
         </div>
       </section>
@@ -339,14 +338,23 @@ export default function Home() {
               </h2>
               <div>
                 <p className="mb-5 max-w-sm text-sm leading-7 text-neutral-500">
-                  Have an idea, a workflow to improve, or a project to discuss?
-                  Send me a message.
+                  I’m applying for AI automation and e-commerce roles. If my
+                  experience fits what you need, email me or connect on LinkedIn.
                 </p>
                 <a
                   className="contact-email"
                   href="mailto:lahoucineamarir5@gmail.com"
+                  aria-label="Email Lahoucine at lahoucineamarir5@gmail.com"
                 >
                   lahoucineamarir5@gmail.com ↗
+                </a>
+                <a
+                  className="mt-4 inline-block text-sm font-medium underline underline-offset-4"
+                  href="https://www.linkedin.com/in/lahoucine-amarir-38618631a"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Connect on LinkedIn ↗
                 </a>
               </div>
             </div>

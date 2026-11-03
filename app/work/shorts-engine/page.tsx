@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ShortsEnginePage() {
   return (
     <main className="min-h-screen bg-[#fafafa] text-[#111]">
@@ -139,27 +141,37 @@ export default function ShortsEnginePage() {
       <section className="border-t border-neutral-200">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <p className="text-sm uppercase tracking-[0.2em] text-neutral-400">
-            Evidence
+            Observed test run
           </p>
 
           <h2 className="mt-6 text-3xl font-semibold tracking-tight sm:text-5xl">
-            Real output will go here.
+            A completed local run produced 13 Shorts candidates.
           </h2>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-neutral-500">
-            Screenshots, generated clips and test results will be added as the
-            system reaches its working V1.
+            A local prototype run reached completion and returned 13 Shorts
+            candidates. The screenshot is deliberately cropped to show only
+            the completion status and result count, keeping the project ID,
+            source media, and generated clip details private.
           </p>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            <div className="flex min-h-[300px] items-center justify-center rounded-2xl border border-dashed border-neutral-300 text-sm text-neutral-400">
-              Screenshot
-            </div>
-
-            <div className="flex min-h-[300px] items-center justify-center rounded-2xl border border-dashed border-neutral-300 text-sm text-neutral-400">
-              Generated video
-            </div>
-          </div>
+          <figure className="mt-10 inline-block overflow-hidden rounded-xl border border-neutral-200 bg-white">
+            <Image
+              src="/images/case-studies/shorts-engine-run-summary.png"
+              alt="Cropped screenshot showing the Shorts Engine completed status and 13 Shorts result count"
+              width={240}
+              height={100}
+              className="h-auto w-60"
+            />
+            <figcaption className="border-t border-neutral-200 px-4 py-3 text-xs text-neutral-500">
+              Local prototype test run. Source media and clip details are hidden.
+            </figcaption>
+          </figure>
+          <p className="mt-6 max-w-2xl text-xs leading-5 text-neutral-400">
+            Test footage belongs to a third party; this image does not display
+            or claim rights to that content. The result count is a prototype
+            observation, not a claim about production performance.
+          </p>
         </div>
       </section>
 

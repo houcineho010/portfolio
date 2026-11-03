@@ -30,10 +30,42 @@ export default function AboutPage() {
         </h1>
 
         <p className="mt-10 max-w-2xl text-xl leading-8 text-neutral-500">
-          My background started in digital marketing, but building real projects
-          gradually pulled me toward AI, automation, software, content and
-          product development.
+          I’m a freelance AI and e-commerce specialist, working since 2019.
+          My experience centers on Shopify and WooCommerce stores, WordPress
+          development, SEO, and using AI to improve digital workflows.
         </p>
+        <p className="mt-6 max-w-2xl text-base leading-7 text-neutral-500">
+          I’m currently applying for AI automation and e-commerce roles. My
+          project pages describe the work I can document and call out where
+          screenshots or verified outcomes are still missing.
+        </p>
+      </section>
+
+      <section className="border-t border-neutral-200">
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 py-16 sm:grid-cols-[1fr_2fr] sm:py-20">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-neutral-400">
+            Experience
+          </p>
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              Freelance AI &amp; E-commerce Specialist
+            </h2>
+            <p className="mt-2 text-sm text-neutral-500">2019–Present</p>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-neutral-500">
+              Built and managed 15+ Shopify and WooCommerce websites across
+              different industries. Work also includes WordPress customization,
+              SEO, digital marketing, and AI-assisted workflow automation.
+            </p>
+            <a
+              className="mt-5 inline-block text-sm font-medium underline underline-offset-4"
+              href="https://www.linkedin.com/in/lahoucine-amarir-38618631a"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View my LinkedIn profile ↗
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* How I work */}
