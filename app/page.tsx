@@ -349,7 +349,7 @@ export default function Home() {
                   Email me ↗
                 </a>
                 <a
-                  className="mt-4 inline-block text-sm font-medium underline underline-offset-4"
+                  className="mt-4 block w-fit text-sm font-medium underline underline-offset-4"
                   href="https://www.linkedin.com/in/lahoucine-amarir-38618631a"
                   target="_blank"
                   rel="noreferrer"

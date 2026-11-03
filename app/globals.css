@@ -281,7 +281,8 @@ button:focus-visible {
 }
 
 .contact-email {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   overflow-wrap: anywhere;
   font-size: clamp(13px, 1.7vw, 16px);
   font-weight: 600;
