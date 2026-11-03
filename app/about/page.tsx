@@ -219,7 +219,7 @@ export default function AboutPage() {
               href="mailto:lahoucineamarir5@gmail.com"
               className="text-lg font-medium underline underline-offset-4 transition hover:text-neutral-500"
             >
-              lahoucineamarir5@gmail.com
+              Email me ↗
             </a>
           </div>
         </div>

@@ -346,7 +346,7 @@ export default function Home() {
                   href="mailto:lahoucineamarir5@gmail.com"
                   aria-label="Email Lahoucine at lahoucineamarir5@gmail.com"
                 >
-                  lahoucineamarir5@gmail.com ↗
+                  Email me ↗
                 </a>
                 <a
                   className="mt-4 inline-block text-sm font-medium underline underline-offset-4"
